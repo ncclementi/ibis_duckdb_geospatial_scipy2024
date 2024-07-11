@@ -1,7 +1,13 @@
 # Ibis + DuckDB geospatial: a match made on Earth 
 
-This repo containse the demos and link to slides for the Ibis + DuckDB geospatial talk
+This repo containse the demos and link to slides for the Ibis + DuckDB geospatial talk. 
 
+How to download and cite the slides: 
+
+**Download:** https://figshare.com/articles/presentation/Ibis_DuckDB_geospatial_a_match_made_on_Earth_Scipy_2024_/26264120
+
+**Cite:** 
+Clementi, Natalia C. (2024). Ibis + DuckDB geospatial: a match made on Earth (Scipy 2024). figshare. Presentation. https://doi.org/10.6084/m9.figshare.26264120.v1 
 ## Run the demos:
 Create an enviornment with mamba, conda or the package manager of your choice. I used mamba, and then pip to install some nightly version of packages and upgrade some dependencies. 
 
