@@ -2,6 +2,20 @@
 
 This repo containse the demos and link to slides for the Ibis + DuckDB geospatial talk
 
+## Run the demos:
+Create an enviornment with mamba, conda or the package manager of your choice. I used mamba, and then pip to install some nightly version of packages and upgrade some dependencies. 
+
+ ```
+$ mamba create -n ibis-geo-scipy24 python=3.11
+$ mamba activate ibis-geo-scipy24
+$ pip install duckdb --pre --upgrade
+$ pip install 'ibis-framework[duckdb,geospatial]'
+$ pip install -U geopandas
+$ pip install lonboard jupyterlab
+```
+
+Launch jupyterlab and start playing around. 
+
 
 ## License
 
